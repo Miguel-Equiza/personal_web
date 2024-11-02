@@ -8,7 +8,12 @@
  */
 
 
-
+ .azure-text {
+  display: inline-block;   /* Keeps the paragraph in line with the heading */
+  margin-left: 10px;      /* Space between the heading and the text */
+  font-size: 1rem;        /* Same font size as a normal paragraph */
+  color: inherit;         /* Optional: inherit color from parent */
+}
 
 
 /*-----------------------------------*\
@@ -606,6 +611,7 @@ main {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
 
 
 /**
