@@ -25,8 +25,10 @@
 
 .h-text {
   margin-left: 10px;
-  font-size: var(--fs-7);       /* Matches the font size to paragraph size */
-  color: white;      /* Inherit color from parent, optional */
+  font-size: var(--fs-7);
+  font-weight: 80;       /* Matches the font size to paragraph size */
+  color: white;
+  text-align: left;    /* Inherit color from parent, optional */
 }
 /*-----------------------------------*\
   #CUSTOM PROPERTY
