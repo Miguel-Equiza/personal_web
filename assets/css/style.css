@@ -30,6 +30,10 @@
   color: white;
   text-align: left;    /* Inherit color from parent, optional */
 }
+
+.h-text p {
+  margin-bottom: 1em; /* Space between paragraphs within the same section */
+}
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
