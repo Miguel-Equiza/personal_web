@@ -591,6 +591,7 @@ main {
    z-index: 1;
    display: block;
    margin-bottom: 20px;
+   text-align: left;
  }
 
  .skill-item::before {
