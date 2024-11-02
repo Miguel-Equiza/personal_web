@@ -250,6 +250,7 @@ article.active {
 .h5 {
   font-size: var(--fs-7);
   font-weight: var(--fw-500);
+  text-align: left;
 }
 
 .article-title {
