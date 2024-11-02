@@ -827,15 +827,8 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
-  margin-bottom: 20px; /* Adjust this value for more or less space between paragraphs */
-  text-indent: 1em;
 }
 
-
-.timeline-text::before {
-  content: '- '; /* Adds a dash before each paragraph */
-  margin-right: 0.5em; /* Adds space between the dash and the text */
-}
 
 /**
  * skills
