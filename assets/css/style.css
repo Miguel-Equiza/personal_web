@@ -23,7 +23,11 @@
   text-overflow: ellipsis;       /* Inherit color from parent, optional */
 }
 
-
+.h-text {
+  margin-left: 10px;
+  font-size: var(--fs-7);       /* Matches the font size to paragraph size */
+  color: white;      /* Inherit color from parent, optional */
+}
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
