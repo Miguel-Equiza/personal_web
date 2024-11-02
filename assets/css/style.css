@@ -8,11 +8,16 @@
  */
 
 
- .azure-text {
-  display: inline-block;   /* Keeps the paragraph in line with the heading */
-  margin-left: 10px;      /* Space between the heading and the text */
-  font-size: 1rem;        /* Same font size as a normal paragraph */
-  color: inherit;         /* Optional: inherit color from parent */
+ .azure-container {
+  display: flex;           /* Enables flexbox layout */
+  align-items: center;    /* Vertically centers the items */
+}
+
+.azure-text {
+  margin-left: 10px;      /* Adds space between the heading and the text */
+  font-size: 1rem;        /* Matches the font size to paragraph size */
+  color: inherit;
+  color: white;         /* Inherit color from parent, optional */
 }
 
 
