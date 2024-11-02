@@ -18,8 +18,8 @@
   font-size: var(--fs-7);       /* Matches the font size to paragraph size */
   color: rgb(160, 160, 160);
   font-weight: 80;
-  white-space: nowrap;        /* Prevents text from wrapping to a new line */
-  overflow: hidden;           /* Hides any overflow text */
+  white-space: wrap;
+  overflow: hidden;
   text-overflow: ellipsis;       /* Inherit color from parent, optional */
 }
 
