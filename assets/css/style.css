@@ -568,6 +568,55 @@ main {
   line-height: 1.6;
 }
 
+/**
+ * #skill
+ */
+
+ .skill { margin-bottom: 35px; }
+
+ .skill-title { margin-bottom: 20px; }
+
+ .skill-list {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 20px;
+ }
+
+ .skill-item {
+   position: relative;
+   background: var(--border-gradient-onyx);
+   padding: 20px;
+   border-radius: 14px;
+   box-shadow: var(--shadow-2);
+   z-index: 1;
+   display: block;
+   margin-bottom: 20px;
+ }
+
+ .skill-item::before {
+   content: "";
+   position: absolute;
+   inset: 1px;
+   background: var(--bg-gradient-jet);
+   border-radius: inherit;
+   z-index: -1;
+ }
+
+ .skill-icon-box { margin-bottom: 10px; }
+
+ .skill-icon-box img { margin: auto; }
+
+ .skill-content-box { text-align: center; }
+
+ .skill-item-title { margin-bottom: 7px; }
+
+ .skill-item-text {
+   color: var(--light-gray);
+   font-size: var(--fs-6);
+   font-weight: var(--fw-3);
+   line-height: 1.6;
+ }
+
 
 /**
  * #testimonials
